@@ -72,7 +72,7 @@ main > h1 {
 	transition-timing-function: var(--slide-ease);
 	transition-duration: 200ms, 200ms, var(--slide-duration);
 	transition-property: opacity, box-shadow, grid-template-rows;
-	transition-delay: 0ms, 0ms, var(--slide-delay);
+	/* transition-delay: 0ms, 0ms, var(--slide-delay); */
 	box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.1);
 	opacity: 0.9;
 }
